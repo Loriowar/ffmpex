@@ -17,6 +17,7 @@ defmodule FFmpex.Options do
       import FFmpex.Options.Video
       import FFmpex.Options.Video.Libavformat
       import FFmpex.Options.Video.Libx264
+      import FFmpex.Options.Video.Muxer
     end
   end
 
